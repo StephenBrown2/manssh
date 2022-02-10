@@ -3,7 +3,7 @@ package manssh
 import (
 	"fmt"
 
-	"github.com/xwjdsh/ssh_config"
+	"github.com/StephenBrown2/ssh_config"
 )
 
 // HostConfig struct include alias, connect string and other config

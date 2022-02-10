@@ -7,9 +7,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/xwjdsh/manssh/utils"
+	"github.com/StephenBrown2/manssh/utils"
 
-	"github.com/xwjdsh/ssh_config"
+	"github.com/StephenBrown2/ssh_config"
 )
 
 func writeConfig(p string, cfg *ssh_config.Config) error {

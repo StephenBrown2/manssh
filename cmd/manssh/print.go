@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xwjdsh/manssh"
-	"github.com/xwjdsh/manssh/utils"
+	"github.com/StephenBrown2/manssh"
+	"github.com/StephenBrown2/manssh/utils"
 
 	"github.com/fatih/color"
 	"github.com/urfave/cli"

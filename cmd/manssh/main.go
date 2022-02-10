@@ -7,12 +7,10 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/xwjdsh/manssh/utils"
+	"github.com/StephenBrown2/manssh/utils"
 )
 
-var (
-	version = "master"
-)
+var version = "master"
 
 func main() {
 	app := cli.NewApp()

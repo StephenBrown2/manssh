@@ -8,15 +8,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/xwjdsh/manssh"
-	"github.com/xwjdsh/manssh/utils"
+	"github.com/StephenBrown2/manssh"
+	"github.com/StephenBrown2/manssh/utils"
 
 	"github.com/urfave/cli"
 )
 
-var (
-	path string
-)
+var path string
 
 func listCmd(c *cli.Context) error {
 	hosts, err := manssh.List(path, manssh.ListOption{
